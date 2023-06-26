@@ -24,4 +24,5 @@ int y = (int) x; // Casting explícito
 - A ideia central do paradigma da Orientação a Objetos é que Dados e funcionalidades devem estar juntos
 - O Paradigma Procedural se baseia na ideia de que um programa é composto por uma série de procedimentos ou funções que são executados em ordem
 ## Classe
-Uma classe é composta por um conjunto de variáveis de instância (atributos) e métodos, que descrevem o comportamento do objeto
+- Uma classe é composta por um conjunto de variáveis de instância (atributos) e métodos, que descrevem o comportamento do objeto
+- Quando o Java constrói objetos, todos os seus atributos são zerados. 0 é o valor default de vários tipos numéricos, como int, double e long. No caso do tipo boolean o valor é false.
