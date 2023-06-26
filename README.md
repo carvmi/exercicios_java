@@ -10,6 +10,38 @@
 - Ao imprimir o valor que está guardado em uma variável, não usa aspas
 - Dentro de uma variável do tipo int, não usa um valor com ponto flutuante
 - O tipo char guarda apenas um caractere da tabela unicode, por isso, quando passamos um valor numérico, teremos como saída o caractere correspondente ao número na tabela unicode
+## Abreviações
+- (abreviação + ctrl espaço)
+- Sysout - 'System.out.println()'
+- syserr - System.err.println()
+- main - public static void main(String[] args)
+- for - for loop
+- if - if statement
+- else - else statement
+- try - try-catch block
+- catch - catch clause
+- while - while loop
+- do - do-while loop
+- switch - switch statement
+- case - case statement
+- break - break statement
+- default - default statement
+- return - return statement
+- class - class declaration
+- interface - interface declaration
+- extends - extends keyword
+- implements - implements keyword
+- new - criação de uma nova instância de objeto
+- instanceof - operador de verificação de tipo
+- import - import statement
+- package - package statement
+- synchronized - synchronized block
+- throw - throw statement
+- throws - throws declaration
+- private - private access modifier
+- public - public access modifier
+- protected - protected access modifier
+- static - static keyword
 ## "Casting"
 - refere-se ao processo de converter o tipo de uma variável em outro tipo compatível.
 ### Casting Implícito (ou Widening Casting)
