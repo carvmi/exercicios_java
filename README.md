@@ -58,3 +58,7 @@ int y = (int) x; // Casting explícito
 ## Classe
 - Uma classe é composta por um conjunto de variáveis de instância (atributos) e métodos, que descrevem o comportamento do objeto
 - Quando o Java constrói objetos, todos os seus atributos são zerados. 0 é o valor default de vários tipos numéricos, como int, double e long. No caso do tipo boolean o valor é false.
+## Referência
+- As variáveis no Java nunca possuem um objeto dentro delas. Isso significa que, em vez de manipular diretamente os dados de um objeto, você manipula a referência que aponta para esse objeto.
+- As referências em Java são usadas para passar objetos como parâmetros para métodos, retornar objetos de métodos, armazenar objetos em estruturas de dados como arrays e coleções, e também para gerenciar a coleta de lixo.
+- Quando uma referência não é mais utilizada ou não aponta para nenhum objeto, o coletor de lixo do Java pode liberar automaticamente a memória ocupada por esse objeto.
