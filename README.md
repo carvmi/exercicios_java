@@ -62,3 +62,7 @@ int y = (int) x; // Casting explícito
 - As variáveis no Java nunca possuem um objeto dentro delas. Isso significa que, em vez de manipular diretamente os dados de um objeto, você manipula a referência que aponta para esse objeto.
 - As referências em Java são usadas para passar objetos como parâmetros para métodos, retornar objetos de métodos, armazenar objetos em estruturas de dados como arrays e coleções, e também para gerenciar a coleta de lixo.
 - Quando uma referência não é mais utilizada ou não aponta para nenhum objeto, o coletor de lixo do Java pode liberar automaticamente a memória ocupada por esse objeto.
+ ## Métodos
+ - Método é um bloco de código que executa uma tarefa específica
+ - Composto por uma assinatura de método (nome do método e parâmetros) e um corpo de método (instruções a serem executadas quando o método é chamado).
+ - A assinatura de método define o tipo de retorno do método (ou "void" se o método não retornar nenhum valor) e os tipos e nomes dos parâmetros, se houver.
