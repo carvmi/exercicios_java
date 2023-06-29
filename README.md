@@ -66,3 +66,5 @@ int y = (int) x; // Casting explícito
  - Método é um bloco de código que executa uma tarefa específica
  - Composto por uma assinatura de método (nome do método e parâmetros) e um corpo de método (instruções a serem executadas quando o método é chamado).
  - A assinatura de método define o tipo de retorno do método (ou "void" se o método não retornar nenhum valor) e os tipos e nomes dos parâmetros, se houver.
+ ## "this"
+ - "this" é usado para eliminar ambiguidade entre atributos de classe e parâmetros com o mesmo nome 
