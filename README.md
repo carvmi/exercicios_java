@@ -67,4 +67,6 @@ int y = (int) x; // Casting explícito
  - Composto por uma assinatura de método (nome do método e parâmetros) e um corpo de método (instruções a serem executadas quando o método é chamado).
  - A assinatura de método define o tipo de retorno do método (ou "void" se o método não retornar nenhum valor) e os tipos e nomes dos parâmetros, se houver.
  ## "this"
- - "this" é usado para eliminar ambiguidade entre atributos de classe e parâmetros com o mesmo nome 
+ - "this" é usado para eliminar ambiguidade entre atributos de classe e parâmetros com o mesmo nome
+## encapsulamento
+- Quando um atributo se torna privado, isso quer dizer que ele não pode ser lido ou modificado, a não ser na própria classe
