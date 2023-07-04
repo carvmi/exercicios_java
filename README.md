@@ -68,5 +68,10 @@ int y = (int) x; // Casting explícito
  - A assinatura de método define o tipo de retorno do método (ou "void" se o método não retornar nenhum valor) e os tipos e nomes dos parâmetros, se houver.
  ## "this"
  - "this" é usado para eliminar ambiguidade entre atributos de classe e parâmetros com o mesmo nome
-## encapsulamento
+## Encapsulamento
 - Quando um atributo se torna privado, isso quer dizer que ele não pode ser lido ou modificado, a não ser na própria classe
+## Getters e setters 
+- permitem controlar a forma como variáveis importantes são acessadas e atualizadas no código
+- um método getter retorna o valor de uma instância de variável (método de acesso)
+- um método setter define ou atualiza uma instância de variável (método de modificação)
+-  O método setter recebe um parâmetro e o coloca no atributo
