@@ -76,3 +76,17 @@ int y = (int) x; // Casting explícito
 - Um método setter define ou atualiza uma instância de variável (método de modificação)
 - O método setter recebe um parâmetro e o coloca no atributo
 - Nem todos os atributos privados precisam ser expostos por meio desses dois métodos com riscos de cairmos em um modelo anêmico que tem os seus comportamentos controlados por outras classes.
+ ## Construtor
+ - Responsáveis por criar o objeto em memória
+ - Apenas as Interfaces não possuem construtores
+ - Modificadores de acesso (public, private ou protected) + nome da classe + parâmetros
+ - O construtor pode ter níveis como: public, private ou protected
+## Design Patterns/ Padrões de Projeto
+- Padrões Criacionais: fornecem mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente
+       - Factory Method (https://refactoring.guru/pt-br/design-patterns/factory-method)
+       - Abstract Factory (https://refactoring.guru/pt-br/design-patterns/abstract-factory)
+       - Builder (https://refactoring.guru/pt-br/design-patterns/builder)
+       - Prototype (https://refactoring.guru/pt-br/design-patterns/prototype)
+       - Singleton (https://refactoring.guru/pt-br/design-patterns/singleton)
+- Padrões Estruturais: explicam como montar objetos e classes em estruturas maiores mas ainda mantendo essas estruturas flexíveis e eficientes.
+- Padrões Comportamentais:  voltados aos algoritmos e a designação de responsabilidades entre objetos.
