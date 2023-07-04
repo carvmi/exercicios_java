@@ -71,7 +71,8 @@ int y = (int) x; // Casting explícito
 ## Encapsulamento
 - Quando um atributo se torna privado, isso quer dizer que ele não pode ser lido ou modificado, a não ser na própria classe
 ## Getters e setters 
-- permitem controlar a forma como variáveis importantes são acessadas e atualizadas no código
-- um método getter retorna o valor de uma instância de variável (método de acesso)
-- um método setter define ou atualiza uma instância de variável (método de modificação)
--  O método setter recebe um parâmetro e o coloca no atributo
+- Permitem controlar a forma como variáveis importantes são acessadas e atualizadas no código
+- Um método getter retorna o valor de uma instância de variável (método de acesso)
+- Um método setter define ou atualiza uma instância de variável (método de modificação)
+- O método setter recebe um parâmetro e o coloca no atributo
+- Nem todos os atributos privados precisam ser expostos por meio desses dois métodos com riscos de cairmos em um modelo anêmico que tem os seus comportamentos controlados por outras classes.
