@@ -80,7 +80,6 @@ int y = (int) x; // Casting explícito
  - Responsáveis por criar o objeto em memória
  - Apenas as Interfaces não possuem construtores
  - Modificadores de acesso (public, private ou protected) + nome da classe + parâmetros
- - O construtor pode ter níveis como: public, private ou protected
 ## Design Patterns/ Padrões de Projeto
 - Padrões Criacionais: fornecem mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente
        - Factory Method (https://refactoring.guru/pt-br/design-patterns/factory-method)
