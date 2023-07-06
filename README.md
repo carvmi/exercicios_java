@@ -80,6 +80,10 @@ int y = (int) x; // Casting explícito
  - Responsáveis por criar o objeto em memória
  - Apenas as Interfaces não possuem construtores
  - Modificadores de acesso (public, private ou protected) + nome da classe + parâmetros
+ - é possível fazer a chamada de um construtor dentro de outro e faz-se isso para evitar duplicações de códigos e regras.
+ ## Static 
+ - faz com que o atributo seja da classe, e não mais do objeto
+ - os métodos estáticos acessam apenas atributos estáticos
 ## Design Patterns/ Padrões de Projeto
 - Padrões Criacionais: fornecem mecanismos de criação de objetos, que aumentam a flexibilidade e reutilização de código já existente
        - Factory Method (https://refactoring.guru/pt-br/design-patterns/factory-method)
