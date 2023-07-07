@@ -57,6 +57,7 @@ int y = (int) x; // Casting explícito
 - O Paradigma Procedural se baseia na ideia de que um programa é composto por uma série de procedimentos ou funções que são executados em ordem
 ## Classe
 - Uma classe é composta por um conjunto de variáveis de instância (atributos) e métodos, que descrevem o comportamento do objeto
+- um "molde" a partir do qual o desenvolvedor pode criar múltiplos objetos
 - Quando o Java constrói objetos, todos os seus atributos são zerados. 0 é o valor default de vários tipos numéricos, como int, double e long. No caso do tipo boolean o valor é false.
 ## Referência
 - As variáveis no Java nunca possuem um objeto dentro delas. Isso significa que, em vez de manipular diretamente os dados de um objeto, você manipula a referência que aponta para esse objeto.
@@ -64,6 +65,8 @@ int y = (int) x; // Casting explícito
 - Quando uma referência não é mais utilizada ou não aponta para nenhum objeto, o coletor de lixo do Java pode liberar automaticamente a memória ocupada por esse objeto.
  ## Métodos
  - Método é um bloco de código que executa uma tarefa específica
+ - Define o comportamento de um objeto em uma classe
+ - Podem retornar valores ou executar tarefas sem retornar nada
  - Composto por uma assinatura de método (nome do método e parâmetros) e um corpo de método (instruções a serem executadas quando o método é chamado).
  - A assinatura de método define o tipo de retorno do método (ou "void" se o método não retornar nenhum valor) e os tipos e nomes dos parâmetros, se houver.
  ## "this"
@@ -77,9 +80,11 @@ int y = (int) x; // Casting explícito
 - O método setter recebe um parâmetro e o coloca no atributo
 - Nem todos os atributos privados precisam ser expostos por meio desses dois métodos com riscos de cairmos em um modelo anêmico que tem os seus comportamentos controlados por outras classes.
  ## Construtor
- - Responsáveis por criar o objeto em memória
+ - Tipo especial de método que é usado para criar e inicializar um objeto quando ele é instanciado a partir de uma classe
+ - permite que defina o estado inicial de um objeto assim que ele é criado
  - Apenas as Interfaces não possuem construtores
  - Modificadores de acesso (public, private ou protected) + nome da classe + parâmetros
+ - Ao contrário do método, ele não retorna nada 
  - é possível fazer a chamada de um construtor dentro de outro e faz-se isso para evitar duplicações de códigos e regras.
  ## Static 
  - faz com que o atributo seja da classe, e não mais do objeto
