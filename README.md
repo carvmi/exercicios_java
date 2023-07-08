@@ -115,3 +115,6 @@ int y = (int) x; // Casting explícito
        - Strategy (https://refactoring.guru/pt-br/design-patterns/strategy)
        - Template Method (https://refactoring.guru/pt-br/design-patterns/template-method)
        - Visitor (https://refactoring.guru/pt-br/design-patterns/visitor)
+  ## Code Smells
+  - O livro Clean Code, do autor Robert C Martin, mostra os Code Smells e como resolvê-los
+  ## Herança
