@@ -115,9 +115,9 @@ int y = (int) x; // Casting explícito
        - Strategy (https://refactoring.guru/pt-br/design-patterns/strategy)
        - Template Method (https://refactoring.guru/pt-br/design-patterns/template-method)
        - Visitor (https://refactoring.guru/pt-br/design-patterns/visitor)
-  ## Code Smells
+## Code Smells
   - O livro Clean Code, do autor Robert C Martin, mostra os Code Smells e como resolvê-los
-  ## Herança
+## Herança
   - É uma forma de reutilização de código, onde a classe filha pode aproveitar os atributos e métodos da classe pai sem precisar reescrevê-los
   - A classe filha é declarada utilizando-se a palavra-chave "class", seguida pelo nome da classe filha e, em seguida, a palavra-chave "extends" e o nome da classe pai
 ## Private x Protected 
@@ -131,4 +131,5 @@ int y = (int) x; // Casting explícito
 - garante a inicialização adequada dos membros herdados antes de executar o código da classe filha
 ## Polimorfismo
 - Permite que referências de tipos de classes mais genéricas referenciem objetos mais específicos
+- o uso de referências mais genéricas permite desacoplar sistemas
 
