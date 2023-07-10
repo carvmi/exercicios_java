@@ -126,4 +126,7 @@ int y = (int) x; // Casting explícito
 - protected - visível dentro da classe e também para as filhas
 - public - visível em todo lugar
 - protected é relacionado com a herança.
+## super() 
+- invoca o constructor da classe derivada (pai)
+- garante a inicialização adequada dos membros herdados antes de executar o código da classe filha
 
