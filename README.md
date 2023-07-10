@@ -129,4 +129,6 @@ int y = (int) x; // Casting explícito
 ## super() 
 - invoca o constructor da classe derivada (pai)
 - garante a inicialização adequada dos membros herdados antes de executar o código da classe filha
+## Polimorfismo
+- Permite que referências de tipos de classes mais genéricas referenciem objetos mais específicos
 
