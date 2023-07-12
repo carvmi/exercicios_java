@@ -124,6 +124,7 @@ int y = (int) x; // Casting explícito
   - Não existe herança de construtores
     ## Classe abstrata 
     -  Representa um conceito, algo abstrato (Exemplo: Funcionário)
+    -  Pode ter métodos abstratos sem implementação
     -  O compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata (Exemplo: Programador)
     -  Classes abstratas são úteis quando queremos utilizar comportamentos e atributos base em classes com comportamentos em comum
     ## Método abstrato
