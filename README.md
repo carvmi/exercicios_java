@@ -122,6 +122,9 @@ int y = (int) x; // Casting explícito
   - É uma forma de reutilização de código, onde a classe filha pode aproveitar os atributos e métodos da classe pai sem precisar reescrevê-los
   - A classe filha é declarada utilizando-se a palavra-chave "class", seguida pelo nome da classe filha e, em seguida, a palavra-chave "extends" e o nome da classe pai
   - Não existe herança de construtores
+    ## Classe abstrata 
+    -  Representa um conceito, algo abstrato (Exemplo: Funcionário)
+    -  O compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata (Exemplo: Programador)
 ## Private x Protected 
 - A palavra chave com a menor visibilidade é private, depois vem o protected e depois public
 - private - apenas visível dentro da classe
