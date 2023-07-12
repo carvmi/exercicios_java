@@ -128,6 +128,7 @@ int y = (int) x; // Casting explícito
     -  Classes abstratas são úteis quando queremos utilizar comportamentos e atributos base em classes com comportamentos em comum
     ## Método abstrato
     - define apenas a assinatura (visibilidade, retorno, nome do método e parâmetros).
+    - garante que a classe filha concreta implemente um comportamento
 ## Private x Protected 
 - A palavra chave com a menor visibilidade é private, depois vem o protected e depois public
 - private - apenas visível dentro da classe
