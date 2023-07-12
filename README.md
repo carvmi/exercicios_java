@@ -125,6 +125,9 @@ int y = (int) x; // Casting explícito
     ## Classe abstrata 
     -  Representa um conceito, algo abstrato (Exemplo: Funcionário)
     -  O compilador não permite instanciar um objeto dessa classe. Para instanciar é preciso criar primeiro uma classe filha não abstrata (Exemplo: Programador)
+    -  Classes abstratas são úteis quando queremos utilizar comportamentos e atributos base em classes com comportamentos em comum
+    ## Método abstrato
+    - define apenas a assinatura (visibilidade, retorno, nome do método e parâmetros).
 ## Private x Protected 
 - A palavra chave com a menor visibilidade é private, depois vem o protected e depois public
 - private - apenas visível dentro da classe
