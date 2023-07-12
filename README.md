@@ -120,6 +120,7 @@ int y = (int) x; // Casting explícito
 ## Herança
   - É uma forma de reutilização de código, onde a classe filha pode aproveitar os atributos e métodos da classe pai sem precisar reescrevê-los
   - A classe filha é declarada utilizando-se a palavra-chave "class", seguida pelo nome da classe filha e, em seguida, a palavra-chave "extends" e o nome da classe pai
+  - Não existe herança de construtores
 ## Private x Protected 
 - A palavra chave com a menor visibilidade é private, depois vem o protected e depois public
 - private - apenas visível dentro da classe
