@@ -119,9 +119,11 @@ int y = (int) x; // Casting explícito
 ## Code Smells
   - O livro Clean Code, do autor Robert C Martin, mostra os Code Smells e como resolvê-los
 ## Herança
-  - É uma forma de reutilização de código, onde a classe filha pode aproveitar os atributos e métodos da classe pai sem precisar reescrevê-los
+  - É uma forma de reutilização de código, onde a classe filha pode aproveitar (herdar) os atributos e métodos da classe pai sem precisar reescrevê-los
+  - Os únicos métodos e atributos que não são herdados são os que possuem o modificador de acesso private
   - A classe filha é declarada utilizando-se a palavra-chave "class", seguida pelo nome da classe filha e, em seguida, a palavra-chave "extends" e o nome da classe pai
   - Não existe herança de construtores
+  - É possível herdar apenas de uma classe. Não existe herança múltipla.
     ## Classe abstrata 
     -  Representa um conceito, algo abstrato (Exemplo: Funcionário)
     -  Pode ter métodos abstratos sem implementação
@@ -142,5 +144,12 @@ int y = (int) x; // Casting explícito
 ## Polimorfismo
 - Permite que referências de tipos de classes mais genéricas referenciem objetos mais específicos
 - o uso de referências mais genéricas permite desacoplar sistemas
-- 
+## Interface
+- É uma classe abstrata com todos os métodos abstratos, ou seja, não há nada concreto
+- É uma forma de conseguir polimorfismo sem herança, ou seja, contorna a falta de herança múltipla
+- É implementada usando a palavra chave implements
+- É um contrato onde quem assina se responsabiliza por implementar esses métodos (cumprir o contrato)
+- Pode conter métodos e constantes
+- Os métodos de uma interface não tem corpo. Eles tem apenas a sua definição
+- Com composições e interfaces teremos mais flexibilidade com nosso código, já que não nos prenderemos ao acoplamento que a herança propõe
 
