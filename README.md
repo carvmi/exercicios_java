@@ -152,4 +152,9 @@ int y = (int) x; // Casting explícito
 - Pode conter métodos e constantes
 - Os métodos de uma interface não tem corpo. Eles tem apenas a sua definição
 - Com composições e interfaces teremos mais flexibilidade com nosso código, já que não nos prenderemos ao acoplamento que a herança propõe
-
+## Conversor de moedas
+- A classe JPanel agrega os botões JMenuBar, JMenu e JMenuItem
+- JMenuBar geralmente é posicionada no topo da janela
+- JMenu agrupa uma coleção de itens de menu relacionados em uma categoria ou função específica
+- JMenuItem representa uma opção selecionável dentro de um menu suspenso (JMenu)
+- JMenuItem é associado a um ouvinte de eventos (ActionListener)
